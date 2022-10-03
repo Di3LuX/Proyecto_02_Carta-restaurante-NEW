@@ -1,0 +1,42 @@
+.body{
+  background-color: black;
+  height: auto;
+}
+
+.head {
+  color: black;
+  background: radial-gradient(yellow, black);
+}
+
+#lft {
+  background: linear-gradient(90deg, black, yellow);
+}
+
+#rgt {
+  background: linear-gradient(90deg, yellow, black);
+}
+
+#navy {
+  background-color: black;
+}
+
+#cyan {
+  background-color: yellow;
+}
+
+#send {
+  background: radial-gradient(black, yellow);
+}
+
+.linkasos {
+  color: yellow;
+  text-decoration: none;
+}
+.zoom:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+h1{
+  background: linear-gradient(transparent, black);
+}

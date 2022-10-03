@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <title>BRASERIA DIEGO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Esto sera el "Header" con los botoncitos y links a mis distintas paginas.
+    Siempre visible en pantalla. -->
+  <div class="fixed-top cabecera-bg">
+    <header class="p-3">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="./index.html" class="nav-link px-2 text-white"><button type="button"
+              class="btn btn-dark btn-1">
+              <p class="fs-1">BRASS<span>ERIA</span> DIEGO</p>
+            </button></a></li>
+
+            <li><a href="./Pages/carta.html" class="nav-link px-2 text-white"><button type="button"
+                  class="btn btn-dark btn-1">
+                  <p class="fs-1">ME<span>N</span>U</p>
+                </button></a></li>
+            <li><a href="./Pages/contacto.html" class="nav-link px-2 text-white"><button type="button"
+                  class="btn btn-dark btn-1">
+                  <p class="fs-1">CO<span>NTA</span>CT</p>
+                </button></a></li>
+          </ul>
+
+          <div class="text-end">
+            <a href="../Pages/delivery.html"><button type="button" class="btn btn-dark btn-2">
+                <p class="fs-1">DEL<span>IV</span>ERY</p>
+              </button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- Aca un contenedor para el backround con estilo carrusel automatico. -->
+  <div class="container-fl">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./IMG/Backgrounds/Wallpaper_01.jpg" class="d-block w-100" alt="leña01">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/Backgrounds/Wallpaper_02.jpg" class="d-block w-100" alt="leña02">
+        </div>
+        <div class="carousel-item">
+          <img src="./IMG/Backgrounds/Wallpaper_03.jpg" class="d-block w-100" alt="leña03">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+  </div>
+  <!-- Aca pondré fotos de los platos -->
+  <div class="container-fluid">
+    <div class="row comida">
+      <div class="h1-gradient-top">
+        <h1>BIENVENIDO A BRASERIA DIEGO</h1>
+      </div>
+      <h2>Asadito, barbacoa, torrá... llamala como quieras... pero disfrutatela...<br>
+        Dejá que tu paladar se deleite con los sabores mas tradicionales de toda latinoamerica...
+      </h2>
+      <div class="col d-flex flex-wrap align-items-center justify-content-center">
+        <div class="slider">
+          <ul>
+            <li>
+              <h3>PARR<span>ILL</span>ADA L</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada XL.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PARR<span>ILL</span>ADA M</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada M.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PARR<span>ILL</span>ADA S</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada S.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PO<span>LL</span>OS</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Pollaso a la Parrilla.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PE<span>CHU</span>GA</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Pechuguita Parrilla.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PES<span>CAD</span>ITO</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Pescado a la parrilla.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>EMB<span>UTI</span>DOS</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada Embutidos.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>ENT<span>REC</span>OT</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Carnaca.png" alt=""></div>
+            </li>
+            <li>
+              <h3>BU<span>RG</span>ER</h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Burger.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PARRILLADA DE <span>VERDURAS L</span></h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada verduras M.jpg" alt=""></div>
+            </li>
+            <li>
+              <h3>PARRILLADA DE <span>VERDURAS M</span></h3>
+              <div class="slider-box comida"><img src="./IMG/Comida/Parrillada verduras S.jpg" alt=""></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Este será el footer, con dos links a carta y contacto.
+    Siempre visible en pantalla -->
+  <div class="container-fluid fixed-bottom">
+    <div class="row">
+      <div class="col-lg h1-gradient-bot-izd">
+        <h3>TENÉS<div class="zoom"><a class="linkasos" href="./Pages/delivery.html">HAMBRE??</a></div>
+        </h3>
+      </div>
+      <div class="col-6"></div>
+      <div class="col-lg h1-gradient-bot-drc">
+        <h3>QUERÉS SABER MAS DE <div class="zoom"><a class="linkasos" href="./Pages/contacto.html">NOSOTROS??</a>
+          </div>
+        </h3>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
