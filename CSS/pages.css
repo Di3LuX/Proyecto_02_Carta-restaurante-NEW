@@ -26,8 +26,8 @@ span {
 
 .box {
   margin: 1%;
-  border: 5px solid;
-  height: 300px;
+  border: 1px solid black;
+  height: 30vh;
   overflow: hidden;
   display: flex;
 }
@@ -38,14 +38,18 @@ span {
 
 }
 .main-info{
-  margin-top: 7%;
   background: linear-gradient(black, grey);
 }
-.col-4{
+.col{
   background: radial-gradient(black, grey);
   color: yellow;
   margin: 5%;
-  border: 5px solid black;
+  border: 3px solid black;
+}
+.col-txt{
+  background: radial-gradient(black, grey);
+  color: yellow;
+  border: 3px solid black;
 }
 
 .h1-gradient-bot-izd {
